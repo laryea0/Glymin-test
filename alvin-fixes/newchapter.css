@@ -1,0 +1,169 @@
+body{
+    overflow-x: none;
+}
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+    align-items: center;
+      
+} 
+.shop-link{
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.links{
+    align-items: center;
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+:hover.links{
+    text-decoration: underline;
+}
+.links:last-child{
+    text-decoration: underline;
+}
+.search-bar ,.icon{
+    padding: 10px;
+    border: none;
+    background-color: rgb(228, 228, 228);
+    outline: none;
+}
+.search-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.icon{
+    height: 30px;
+    cursor: pointer;
+    border-left: 1px solid rgb(185, 184, 184);
+}
+.main-section{
+  display: grid;
+  grid-template-columns: 60% 35%;
+  margin: 100px 0px;
+}
+.image-container{
+    border: 1px solid black;
+}
+.form-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px ;
+    overflow: hidden;
+    font-family: arial;
+}
+.form-header{
+    font-size: 50px;   
+}
+.form-text{
+    margin-top: -30px;
+    font-size: larger;
+    font: 900;
+}
+form input{
+    margin: 20px 0px;
+    border: none;
+    border-bottom: 2px solid rgb(195, 194, 194);
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    outline: none;
+}
+.create-btn{
+    background-color: rgb(167, 71, 71);
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px; 
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    transition: box-shadow 0.5s;
+}
+.google-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px ;
+    background-color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+    border: 2px solid rgb(185, 184, 184);
+    border-radius: 5px;
+    transition: box-shadow 0.5s;
+}
+.google-btn:hover ,.create-btn:hover{
+    box-shadow:0px 3px 10px rgba(13, 13, 13, 0.584);
+}
+.sign-in-para{
+   font-size: 15px;
+   margin-top: 30px;
+   text-align: center;
+   color: rgb(50, 50, 50);
+}
+.sign-in-para a{
+    color: rgb(50, 50, 50);
+}
+.footer{
+    background-color: black;
+    height: 410px;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content:space-evenly ;
+    font-size: 20px;
+}
+.email-input-container{
+    display: flex;
+    align-items: center;
+}
+.email-input-container svg{
+    height: 25px;
+    background-color: transparent;
+    margin-left: -30px;
+}
+.footer p{
+    font-size: 20px;
+}
+.footer input{
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: gray;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+}
+.qcode{
+    background-color: white;
+    width: 80px;
+    margin-top: 10px;
+}
+.gplay{
+    height:60px;
+}
+.apple-st{
+    height: 60px;
+}
+.face-svg{
+    height: 60px;
+    background-color: white;
+}
+
+
+    
